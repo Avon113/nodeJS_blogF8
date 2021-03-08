@@ -1,0 +1,32 @@
+{
+  "name": "f8-nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --inspect index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Avon113/nodeJS_blogF8.git"
+  },
+  "keywords": [
+    "f8",
+    "f8",
+    "nodejs"
+  ],
+  "author": "unknow",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Avon113/nodeJS_blogF8/issues"
+  },
+  "homepage": "https://github.com/Avon113/nodeJS_blogF8#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "i": "^0.3.6",
+    "nodemon": "^2.0.7"
+  }
+}
