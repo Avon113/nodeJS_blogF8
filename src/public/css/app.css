@@ -1,6 +1,29 @@
-h1 {
-  color: red; }
+* {
+  box-sizing: inherit; }
 
-h2 {
-  color: green;
-  background-color: transparent; }
+html {
+  font-size: 62.5%;
+  line-height: 1.6rem;
+  box-sizing: border-box; }
+
+.card-comic-item {
+  margin: 0.5rem auto;
+  min-width: 23rem;
+  height: 400px; }
+  .card-comic-item a:first-child {
+    width: 100%;
+    height: 60%; }
+  .card-comic-item .card-title {
+    margin-top: 1rem; }
+  .card-comic-item .card-img-item {
+    background-size: cover;
+    height: 100%; }
+  .card-comic-item .card-text-item {
+    font-size: 1.6rem;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 2; }
+
+.comic-item__img {
+  width: 100%; }

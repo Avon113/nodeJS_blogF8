@@ -1,0 +1,15 @@
+<div class="mt-4">
+    <div class="row">
+        <div class="col-lg-3 comic-item">
+            <img src="{{comic.image}}" alt="{{comic.name}}" class="comic-item__img"">
+            <h1>{{comic.name}}</h1>
+            <button>Đọc ngay</button>
+        </div>
+
+        <div class="col-lg-9">
+            <h1>Trailer</h1>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/{{comic.videoId}}" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <h4>{{comic.descriptions}}</h4>
+        </div>
+    </div>
+</div>

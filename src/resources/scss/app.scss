@@ -1,9 +1,42 @@
 @import 'variables';
-h1 {
-    color: $red-color;
+
+* {
+    box-sizing: inherit;
 }
 
-h2 {
-    color: green;
-    background-color: transparent;
+html {
+    font-size: 62.5%;
+    line-height: 1.6rem;
+    box-sizing: border-box;
 }
+
+.card-comic-item {
+    margin: 0.5rem auto;
+    min-width: 23rem;
+    height: 400px;
+    & a:first-child{
+        width: 100%;
+        height: 60%;
+    }
+    .card-title {
+        margin-top: 1rem;
+    }
+    .card-img-item{
+        background-size: cover;
+        height: 100%;
+    }
+    .card-text-item {
+        font-size: 1.6rem;
+        overflow: hidden;
+        display: -webkit-box;
+        -webkit-box-orient: vertical;
+        -webkit-line-clamp: 2;
+    }
+}
+
+.comic-item{
+    &__img{
+        width:100%;
+    }
+}
+

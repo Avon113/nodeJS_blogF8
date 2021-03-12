@@ -1,0 +1,21 @@
+<div class="mt-4">
+    <h3>Đăng truyện</h3>
+
+    <form method="POST" action="/comics/store">
+    <div class="form-group">
+        <label for="name">Tên truyện</label>
+        <input type="text" class="form-control" id="name" name="name" placeholder="Nhập tên">
+        <small class="form-text text-muted">Yêu cầu nhập chính xác tên truyện.</small>
+    </div>
+    <div class="form-group">
+        <label for="descriptions">Mô tả</label>
+        <textarea class="form-control" id="descriptions" name="descriptions" rows="8" ></textarea>
+        <small class="form-text text-muted">Giới hạn 600 ký tự.</small>
+    </div>
+    <div class="form-group">
+        <label for="videoId">Video ID</label>
+        <input type="text" class="form-control" id="videoId" name="videoId" >
+    </div>
+    <button type="submit" class="btn btn-primary">Thêm bộ truyện</button>
+    </form>
+</div>
